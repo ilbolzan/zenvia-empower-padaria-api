@@ -34,9 +34,11 @@ GET: http://localhost:3000/produtos/pao
 ### Cadastrar novo produto
 
 POST: http://localhost:3000/produtos
+``` json
 {
     "nome": "bolacha"
 }
+```
 
 ### Implementar método DELETE para excluir um produto
 
